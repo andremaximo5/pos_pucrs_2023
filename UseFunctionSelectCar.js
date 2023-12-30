@@ -25,3 +25,16 @@ function carroArray(){
 carroArray()
 
 //----------------------------------------------------------------------------------------------
+
+const carroUpperCase = ['Monza', 'Fusca', 'sx4', 'Tempra']
+
+function fixNameCar(){
+
+
+    const fixNameCar = carroUpperCase.map(nomeFix=>{
+        return nomeFix.toUpperCase()
+    })
+    console.log(fixNameCar)
+}
+
+fixNameCar()
